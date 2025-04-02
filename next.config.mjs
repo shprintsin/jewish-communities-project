@@ -1,11 +1,14 @@
 import nextra from "nextra";
 
 const withNextra = nextra({
-    search: true,
+    
     defaultShowCopyCode: true,
+    staticImage: true,
 });
 
-export default withNextra({
-    // ... Other Next.js config options
-    // output: 'export'
-});
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    // your existing Next.js config
+};
+
+export default withNextra(nextConfig);

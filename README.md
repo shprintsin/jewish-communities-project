@@ -1,40 +1,32 @@
-# Nextra Docs Starter 
+# Jewish Communities Project: A Thousand Years of History
 
-This starter template includes the following features:
+A comprehensive documentation site dedicated to research in the economic history of Eastern European Jewish communities. This project aims to collect and make accessible detailed historical data about these communities, including demographic, economic, and administrative information from various historical sources such as population censuses, administrative records, and community sources.
 
-- [x] **Nextra 4**
-- [x] **Search with Pagefind**
-- [x] **Lucide Icons**
+## Project Overview
 
-[**Live Demo →**](https://nextra-docs-starter.vercel.app)
+This site serves as a central hub for accessing and understanding historical data about Jewish communities in Eastern Europe. The project focuses on creating a comprehensive economic database that will assist researchers, students, and anyone interested in studying the economic, social, and demographic structure of Jewish communities in Eastern Europe.
 
-[![](.github/screenshot.png)](https://nextra-docs-starter.vercel.app)
+## Available Projects
 
-## Quick Start
+### 1. Galician Jewish Census (1900)
+- Contains information about population size, religion, and economy
+- Includes additional historical sources and data
+- Access detailed demographic information from the 1900 census
 
-You can deploy this template on Vercel by clicking the button below
+### 2. Shtetl Project (Galicia and Prussia)
+- Information about Jewish towns in Galicia and Prussia
+- Includes founding years and population sizes
+- Additional historical sources and data
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fphucbm%2Fnextra-docs-starter)
+## Data Downloads
 
-## Local Development
+The following data files are available for download:
 
-### Clone this repository
-
-Using the GitHub CLI:
-```bash
-gh repo clone phucbm/nextra-docs-starter
-```
-
-### Install
-```bash
-pnpm i
-```
-
-### Run the development server
-```bash
-pnpm dev
-```
-
-## License
-
-This project is licensed under the MIT License.
+| Table | File | Description |
+|-------|------|-------------|
+| B.1 | Aut_census.xlsx | Population data by religion and gender from the 1900 census Part A |
+| B.2 | Aut_districts.csv | Regional judicial structure: districts, counties, estates, and local communities |
+| A.1 | EJL_galicia.csv | Establishment data for all settlements in Galicia and Prussia |
+| A.2 | EJL_foundation.csv | Founding year and population for each census (all settlements) |
+| A.3 | EJL_data.csv | Wide table with additional data and supporting source |
+| A.4 | EJL-fulltext.csv | Table of all encyclopedia values |

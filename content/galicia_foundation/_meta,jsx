@@ -1,0 +1,11 @@
+export default {
+  index: 'index',
+  // You can use JSX elements to change the look of titles in the sidebar, e.g. insert icons
+  austria_cencus:'title',
+  about: {
+    // Alternatively, you can set title with `title` property
+    title: 'About Us'
+    // ... and provide extra configurations
+  }
+}
+ 
