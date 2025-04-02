@@ -9,6 +9,10 @@ const withNextra = nextra({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // your existing Next.js config
+    distDir: '.next',
+    experimental: {
+        appDir: true,
+    },
 };
 
 export default withNextra(nextConfig);
