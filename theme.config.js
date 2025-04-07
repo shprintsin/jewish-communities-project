@@ -1,12 +1,12 @@
 export default {
-  logo: <span>JHC</span>,
+  logo: <span>Jewish Communities Project</span>,
   project: {
-    link: 'https://github.com/yourusername/yourrepo',
+    link: 'https://github.com/shprintsin/jewish-communities-project',
   },
-  docsRepositoryBase: 'https://github.com/yourusername/yourrepo',
+  docsRepositoryBase: 'https://github.com/shprintsin/jewish-communities-project/tree/main',
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – JHC'
+      titleTemplate: '%s – Jewish Communities Project'
     }
   },
   primaryHue: 210,
@@ -15,6 +15,17 @@ export default {
     next: true
   },
   footer: {
-    text: '© 2024 JHC. All rights reserved.',
+    text: 'Jewish Communities Project Documentation',
   },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    toggleButton: true,
+  },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Jewish Communities Project" />
+      <meta property="og:description" content="Documentation for Jewish Communities Project" />
+    </>
+  ),
 } 
